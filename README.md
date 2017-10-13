@@ -8,7 +8,7 @@ function to insert data from y_train.txt and subject_train.txt as 1st and 2nd co
 4. Merging train and test data sets into one file by using rbind() function
 5. Calling grep() function to search for all columns with mean and std values for each feature, and limiting data to only those columns (while
 keeping Subject and Activity Labels columns as well)
-6. Changing names to create tidy data set:
+6. Changing names to create tidy data set (see more details in Codebook.md file):
 * For each value in Subject column performing following change: "1" -> "Subject 1"
 * For each value in Activity Labels column looking for corresponding label in activity_labels.txt (example: "1" -> "WALKING")
 * Doing data cleaning for each column with mean and std values for observed features (example: "tBodyAcc-mean()-X" -> "TimeBodyAccelerometer-Mean-X")
